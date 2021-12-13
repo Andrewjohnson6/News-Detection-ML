@@ -5,6 +5,8 @@ The objective of this project was to practice using all of the skills and tools 
 
 I decided to do a fake news detection program while reading an article on what makes a good data science project. This project is great for machine learning, as it is boolean based (True or Fake) and has over 40,000 articles to work with.
 
+The main question I had after choosing this project is which subject of news would have the most fake articles. I had a large hunch that it would be political, but I was curious to see the results.
+
 ## Selection of Data
 For the data, I used a dataset from Kaggle (https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset). It contains two CSV files, Fake and True. These datasets are labeled with a title (title), the entire text in the article (text), the date (date), and the source/subject of the article (subject). Each dataset also contained over 20,000 articles each. 
 
@@ -34,15 +36,18 @@ The Logistic Regression worked great for the fake news detection program, and ac
 Our LR model worked just as expected, as LR models work great with booleans.
  
 ![png](visual1.PNG)
-![png](viz.PNG)
+![png](viz2.PNG)
 
 After the visualizations , we arrive at the user input portion.
 
 ![png](sedondfake.PNG)
 ![png](thisfake.PNG)
+
 ## Discussion
-While completing this project, the skills I learned earlier in the semester were placed firmly back into my memory, and the topics that were fresh in my mind before starting this project are now even more refined. The choice to go with Logistic Regression was a good choice, as it achieved a 99% accuracy score every time. 
+While completing this project, the skills I learned earlier in the semester were placed firmly back into my memory, and the topics that were fresh in my mind before starting this project are now even more refined. The choice to go with Logistic Regression was a good choice, as it achieved a 99% accuracy score every time. The average score that I saw on the original Kaggle post (https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) were from 95-99%, so that is great! 
 
+The user input section is very simple, but it works for most political articles. In the future, I would love to implement a way for a user to type in the web address of an article instead of requiring them to copy and paste the entire string. Nevertheless, the user input program works great for how simple it is!
 
+My question of which subject of news would have the highest percent of fake news was answered and I found the results to be very interesting. Not only was political news the most fake, but it was
+miles ahead of any others. Granted, there were not many subjects to pick from, but it is still interesting to see the visualization of it. It brings up the question; what is happening to our media in our society? Why is there so much fake political news that this program is actually necessary? I found this and the rest of the visualizations to be very thought-provoking. 
 
- The user input section is very simple, but it works for most political articles. In the future, I would love to implement a way for a user to type in the web address of an article instead of requiring them to copy and paste the entire string. Nevertheless, the user input program works great for how simple it is!
