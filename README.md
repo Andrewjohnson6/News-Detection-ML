@@ -54,5 +54,5 @@ miles ahead of any others. Granted, there were not many subjects to pick from, b
 ## Summary
 This project uses a supervised Logistic Regression model that predicts whether or not an article is true or fake. After running countless trials, the program achieved a 99% accuracy score and worked extremely well.
 
-The program contains a way to input your own articles to test, as well as various visualizations that showcase information I found to be relevant and interesting. There are many things that I would love to add to this project in the future. Fake news seems to be an ongoing problem and programs like these are a great starting place to reduce the growth of fake new. 
+The program contains a way to input your own articles to test, as well as various visualizations that showcase information I found to be relevant and interesting. There are many things that I would love to add to this project in the future. Fake news seems to be an ongoing problem and programs like these are a great starting place to reduce the growth of fake news.
 
